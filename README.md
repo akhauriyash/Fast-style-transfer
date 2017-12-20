@@ -2,6 +2,13 @@
 
 Implementation of [Instance Normalization](https://arxiv.org/abs/1607.08022) and a generator network for one shot stylization. 
 
+
+## Demonstration
+ 
+The below gif is the result of the processing done by using a video window on screen and using the ImageGrab feature. OpenCV is having some issues on my new laptop and thus I have no committed a Webcam version yet. 
+
+![Alt text](https://github.com/akhauriyash/Fast-style-transfer/blob/master/21anpd.gif?raw=true)
+
 ## How to use
 
 This repository is under development. Models are [located here](https://drive.google.com/drive/folders/0B9jhaT37ydSyRk9UX0wwX3BpMzQ?usp=sharing).
