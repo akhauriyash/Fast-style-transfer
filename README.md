@@ -17,3 +17,7 @@ Note that this is a bare bones version of [lengstrom's](https://github.com/lengs
 This achieves around 20 FPS for stylization of 540x600 resolution images. Also check that the transform network has been tinkered with to give maximum throughput but model has not been trained for that network. Use the original network for stylized results. 
 
 This uses PILs ImageGrab feature to simply grab a screenshot and feed it to the network. 
+
+## StyleGUI
+
+The stylegui.py file simply runs the same code but gives you the option of setting the amount of time the code runs for, and the area of your screen it should stylize. It is in development to work with multiple streams like OpenCV (Webcam) or external camera as well. 
